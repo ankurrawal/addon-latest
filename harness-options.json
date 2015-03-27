@@ -1,0 +1,108 @@
+{
+ "abort_on_missing": false, 
+ "check_memory": false, 
+ "enable_e10s": false, 
+ "is-sdk-bundled": false, 
+ "jetpackID": "jid1-bIu96Y3bzq8CBQ@jetpack", 
+ "loader": "addon-sdk/lib/sdk/loader/cuddlefish.js", 
+ "main": "main", 
+ "mainPath": "qbeeko-firefox-add-on/main", 
+ "manifest": {
+  "menuitems/menuitems": {
+   "docsSHA256": "58ad1ff182b33d89a46eb8e0b4847ff84f5403840ddbd03b017a4a855d2008fc", 
+   "jsSHA256": "30d5fc7421841e6ac4ec3756515ac8f2dc3850bed7334f3ff038528d18262524", 
+   "moduleName": "menuitems", 
+   "packageName": "menuitems", 
+   "requirements": {
+    "sdk/core/heritage": "sdk/core/heritage", 
+    "sdk/core/namespace": "sdk/core/namespace", 
+    "sdk/deprecated/api-utils": "sdk/deprecated/api-utils", 
+    "sdk/deprecated/window-utils": "sdk/deprecated/window-utils", 
+    "sdk/event/core": "sdk/event/core", 
+    "sdk/event/target": "sdk/event/target", 
+    "sdk/window/utils": "sdk/window/utils", 
+    "unload+": "vold-utils/unload+"
+   }, 
+   "sectionName": "lib"
+  }, 
+  "qbeeko-firefox-add-on/main": {
+   "docsSHA256": null, 
+   "jsSHA256": "057745a0793c39ce6d3b6535a9c649ae2f6b01fdd348966a7a36785478727f11", 
+   "moduleName": "main", 
+   "packageName": "qbeeko-firefox-add-on", 
+   "requirements": {
+    "menuitems": "menuitems/menuitems", 
+    "sdk/panel": "sdk/panel", 
+    "sdk/self": "sdk/self", 
+    "sdk/stylesheet/style": "sdk/stylesheet/style", 
+    "sdk/tabs": "sdk/tabs", 
+    "sdk/ui/button/action": "sdk/ui/button/action", 
+    "sdk/ui/button/toggle": "sdk/ui/button/toggle", 
+    "sdk/view/core": "sdk/view/core", 
+    "sdk/windows": "sdk/windows"
+   }, 
+   "sectionName": "lib"
+  }, 
+  "vold-utils/unload+": {
+   "docsSHA256": "465618992a8bbf3da6425fd79aaec54b92db0353d9670d8dcc1373d14c25b69b", 
+   "jsSHA256": "fbbdfe29fd5cd3ed3593d5720278df4091bd208fc14478fcbff6776fad6c4dd1", 
+   "moduleName": "unload+", 
+   "packageName": "vold-utils", 
+   "requirements": {
+    "sdk/core/heritage": "sdk/core/heritage", 
+    "sdk/core/namespace": "sdk/core/namespace", 
+    "sdk/system/unload": "sdk/system/unload"
+   }, 
+   "sectionName": "lib"
+  }
+ }, 
+ "metadata": {
+  "addon-sdk": {
+   "description": "Add-on development made easy.", 
+   "keywords": [
+    "javascript", 
+    "engine", 
+    "addon", 
+    "extension", 
+    "xulrunner", 
+    "firefox", 
+    "browser"
+   ], 
+   "license": "MPL 2.0", 
+   "name": "addon-sdk"
+  }, 
+  "menuitems": {
+   "author": "Erik Vold (http://erikvold.com/) <erikvvold@gmail.com>", 
+   "description": "Menuitems for Jetpacks", 
+   "keywords": [
+    "menu", 
+    "menuitems", 
+    "button", 
+    "ui"
+   ], 
+   "license": "MPL 2.0", 
+   "name": "menuitems", 
+   "version": "1.1.1"
+  }, 
+  "qbeeko-firefox-add-on": {
+   "author": "Qbeeko Labs", 
+   "description": "Download this firefox add-on to easily share links with your friends with one click of a button. No need to go to your News Feed. Happy sharing!", 
+   "license": "MPL 2.0", 
+   "main": "main", 
+   "name": "qbeeko-firefox-add-on", 
+   "version": "0.2"
+  }, 
+  "vold-utils": {
+   "author": "Erik Vold (http://erikvold.com/) <erikvvold@gmail.com>", 
+   "description": "Utilitys for Jetpacks", 
+   "name": "vold-utils", 
+   "version": "1.1"
+  }
+ }, 
+ "name": "qbeeko-firefox-add-on", 
+ "parseable": false, 
+ "preferencesBranch": "jid1-bIu96Y3bzq8CBQ@jetpack", 
+ "sdkVersion": "1.17", 
+ "staticArgs": {}, 
+ "verbose": false
+}
